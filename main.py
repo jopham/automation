@@ -65,8 +65,8 @@ except OSError:
 ####################
 
 # Create the output directory and logs, print errors
-logName = './runs/' + outputName + '/automation-logs/AUTO.log'
-logLoc = './runs/' + outputName + '/logs/'
+logName = './executionLogs/' + outputName + '/automation-logs/AUTO.log'
+logLoc = './executionLogs/' + outputName + '/logs/'
 
 if not os.path.exists(os.path.dirname(logName)):
     try:
@@ -92,7 +92,7 @@ l.write(str(datetime.datetime.now()) + ' INFO: Unique output folder name is ' + 
 print('INFO: Unique output folder name is ' + outputName)
 
 # Create input folder for data sets
-folder = './runs/' + outputName + '/input/'
+folder = './executionLogs/' + outputName + '/input/'
 if not os.path.exists(os.path.dirname(folder)):
     try:
         l.write(str(datetime.datetime.now()) + ' INFO: Create ' + folder + '\n')
@@ -105,7 +105,7 @@ if not os.path.exists(os.path.dirname(folder)):
         exit()
 
 # Create output forlder for each automation run
-folder = './runs/' + outputName + '/output/'
+folder = './executionLogs/' + outputName + '/output/'
 if not os.path.exists(os.path.dirname(folder)):
     try:
         l.write(str(datetime.datetime.now()) + ' INFO: Create ' + folder + '\n')
