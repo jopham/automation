@@ -12,7 +12,7 @@ Mini automation project
 
 ## To do
 - Get and pre-process data if necessary
-- Create/pick existing analytics model to run
+- Create/pick existing ML model to run
 - commonScripts:
   - getCall: create a GET call
   - postCall: create a POST call
