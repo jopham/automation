@@ -81,7 +81,7 @@ if not os.path.exists(os.path.dirname(logName)):
         print("ERROR: Issue creating the output directory, log directories, or log file\n")
         exit()
 
-# Open log to write to
+# Record start of an automation run
 l = open(logName, 'w')
 l.write('*****************************************************************************************\n')
 l.write('*****************************************************************************************\n')
