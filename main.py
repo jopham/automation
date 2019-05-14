@@ -1,6 +1,6 @@
-'''
+"""
 Purpose: This script drives automation execution.
-'''
+"""
 ####################
 #	IMPORT
 ####################
