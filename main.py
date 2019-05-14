@@ -14,12 +14,6 @@ import sys
 from shutil import copy
 
 import commonScripts
-import featureScripts
-import commonScripts.globalVars as globalVars
-
-from commonScripts.getAwsKey import get_awskeytemp
-from commonScripts.getProperties import getProperties
-from featureScripts.singleExp import singleExp
 from commonScripts.exitSysFunc import exitSysFunc
 
 # Set exit system var to 0
