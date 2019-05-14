@@ -1,6 +1,6 @@
-'''
-Purpose: Exit system if there are errors
-'''
+"""
+Purpose: Exits system if there are errors
+"""
 ####################
 #	IMPORT
 ####################
@@ -11,6 +11,7 @@ import datetime
 #	EXIT FUNCTION
 ####################
 def exitSysFunc(l):
+    """Exits system if there are errors"""
     l.write(str(datetime.datetime.now()) + " INFO: Check exitSys flag\n")
     l.write(str(datetime.datetime.now()) + " INFO: exitSys flag = " + str(globalVars.exitSys) + "\n")
     if globalVars.exitSys == 1:
