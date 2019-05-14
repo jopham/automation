@@ -17,3 +17,4 @@ Mini automation project
   - getCall: create a GET call
   - postCall: create a POST call
   - uploadToS3: upload data/results to S3
+- Add a scheduler (options: crontab, schedule)
