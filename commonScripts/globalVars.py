@@ -8,8 +8,8 @@ Purpose: Creates global variables
 import datetime
 
 
-def init(startDt, outputNm, exit, runLocal):
-    """Creates global variables: startDate, outputName, exitSys"""
+def init(startDt, outputNm, exit, runLocally):
+    """Creates global variables: startDate, outputName, exitSys, runLocal"""
     global startDate
     startDate = startDt
     l.write(str(datetime.datetime.now()) + ' INFO: Global variable startDate set as ' + str(startDate) + '\n')
