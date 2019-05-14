@@ -1,2 +1,2 @@
-# automation
-Mini automation
+# Automation
+Mini automation project
