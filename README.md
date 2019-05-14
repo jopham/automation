@@ -9,3 +9,11 @@ Mini automation project
 ## What it does right now
 - Creates folder structure for logs
 - Opens the main log and writes to it
+
+## To do
+- Get and pre-process data if necessary
+- Create/pick existing analytics model to run
+- commonScripts:
+  - getCall: create a GET call
+  - postCall: create a POST call
+  - uploadToS3: upload data/results to S3
