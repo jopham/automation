@@ -1,9 +1,6 @@
 """
 Purpose: Creates global variables
 """
-####################
-#	IMPORT
-####################
 
 import datetime
 
